@@ -1,103 +1,68 @@
-# Ghostium [![Build Status](https://travis-ci.org/oswaldoacauan/ghostium.png)](https://travis-ci.org/oswaldoacauan/ghostium) [![Total views](https://sourcegraph.com/api/repos/github.com/oswaldoacauan/ghostium/counters/views.png)](https://sourcegraph.com/github.com/oswaldoacauan/ghostium)
+## Ghostion Overview
 
-![Ghostium](http://i.imgur.com/m5VcTBl.png)
+**Ghostion** is a free Ghost theme powered by Foundation 5 framework and Bourbon Sass Mixins Library. The theme presents a simple responsive design and packed with all Foundation 5 features to make your Ghost blog powerful. Combined with Bourbon, a simple and lightweight mixin library for Sass, writing CSS is never faster and easier than ever before.
 
-> A [Ghost](https://ghost.org/) theme focused on content based on [Medium](https://medium.com) design/ux.
+![Ghostion](http://ghostdemo.axiantheme.com/ghostion/demo/overview.jpg)
 
-### [→ Live Demo](http://ghostium.oswaldoacauan.com/)
-### [→ Download](https://github.com/oswaldoacauan/ghostium/archive/master.zip)
+Ghostion is a lightweight and speed optimized theme for Ghost. Ghostion theme gets Grade A for both PageSpeed and YSlow reported by [GTmetrix](http://gtmetrix.com/reports/ghostion.ghostdemo.axiantheme.com/bntLnnuI).
 
-## Table of contents
+![Grade A](http://ghostdemo.axiantheme.com/ghostion/demo/grade_a.jpg)
 
-* [Features](#features)
-* [Installing](#installing)
-* [Configuring](#configuring)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [History](#history)
-* [License](#license)
+<br />
 
-## Features
+## Full Features
 
-* Focused on content
-* Fully responsive
-* HTML5 semantics, WAI-ARIA and Rich Snippets(microdata) roles
-* Asynchronous content loading
-* Disqus comments
-* Syntax Highlight with [Prism](http://prismjs.com/)
-* Google Universal Analytics snippet
-* OpenGraph and Twitter Cards meta's
-* Baseline HTML5 features, DNS prefetching, responsive meta
-* One-file CSS/JS for performance
+**Ghostion** theme is packaged with full powerful features so you can get started building your blog easily. Faster to learn, faster to code, and faster for users as well.
 
-## Installing
+#### Ghost 0.4.1 Compatible
 
-### Using Git
-1. Navigate to your Ghost theme directory `ghost/content/themes`
-2. Clone the theme repository using the command below
-```sh
-$ git clone https://github.com/oswaldoacauan/ghostium/ "ghostium"
-```
-3. Restart ghost and log in to your dashboard
-4. In settings under themes select **ghostium** and save
-5. That's all, now its time to [configure](#configuring) your theme
+Ghostion supports **Featured Post** tag and **Static Page** which are part of [Ghost 0.4+](http://blog.ghost.org/ghost-0-4/) best features.
 
+#### Foundation 5 Framework
 
-### Manually
-1. Download the files using the [GitHub .zip download](https://github.com/oswaldoacauan/ghostium/archive/master.zip) option
-2. Unzip the files and rename the folder to `ghostium`
-4. Copy the folder into your Ghost theme directory `ghost/content/themes`
-5. Restart ghost and log in to your dashboard
-6. In settings under themes select **ghostium** and save
-7. That's all, now its time to [configure](#configuring) your theme
+[Foundation 5](http://foundation.zurb.com/) is the professional choice for designers and developers. What you can do with Foundation 5, you can do with Ghostion theme, including:
 
-## Configuring
+* Foundation 5 Powerful Responsive Grid Layouts
+* Off-Canvas Menu
+* Many Easy to Use Button Styles
+* Reveal Modal
+* Tooltips
+* and many more
 
-All configurable files are located in `ghostium/partials/custom`.
+Getting started with Foundation 5 is easy. Please check the full [Foundation 5 Documentation](http://foundation.zurb.com/docs/) for complete information.
 
-#### config.hbs
+#### Bourbon
 
-Configurable javascript identifiers.
+Bourbon library contains mixins, functions, and other addons to build kick ass web stuf, so you can customize Ghostion theme easier and faster.
 
-* `ga_ua`: Your [Google Analitycs](https://support.google.com/analytics/answer/1032385) account identifier
-* `disqus_shortname`: Your [Disqus](http://help.disqus.com/customer/portal/articles/466208) unique identifier
+#### FontAwesome
 
-#### meta.hbs
+FontAwesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS. The complete set of 300+ icons in FontAwesome can be found [here](http://fortawesome.github.io/Font-Awesome/icons/).
 
-Configurable meta tags.
+#### GhostHunter
 
-* `twitter:site`: Used for [Twitter Card](https://dev.twitter.com/docs/cards/markup-reference) identification, the twitter @username of the owner of this card's domain
-* `twitter:creator`: Used for [Twitter Card](https://dev.twitter.com/docs/cards/markup-reference) identification, the twitter @username of the author of this content
-* `google-site-verification`: Used for [Google Webmaster Tools](https://support.google.com/webmasters/answer/35179) identification
-* `fb:admins`: Used for [Facebook Insights](https://developers.facebook.com/docs/insights/‎) identification
+[GhostHunter](https://github.com/i11ume/ghostHunter/) provides Ghostion full text searching right in the blog without having to resort to any third-party solutions, by utilizing the rss feed.
 
-#### navigation.hbs
+#### Google Fonts
 
-Your site navigation items, markup template below.
-```html
-<li class="drawer-list-item">
-  <a href="#" title="My awesome menu">
-    My menu
-  </a>
-</li>
-```
+[Google Fonts](http://www.google.com/fonts) offers hundreds of free, open-source fonts optimized for the web. Just one quick step on changing Ghostion configuration file and you are ready to have Google Font presented on your blog.
 
-## Roadmap
+#### Google Analytics
 
-Many features listed here still depend on future implementations in Ghost, take a look at the their [Roadmap](https://github.com/tryghost/ghost/wiki/Roadmap) and [Planned features](https://github.com/tryghost/ghost/wiki/Planned-Features).
+Ghostion uses the asynchronous [Google Analytics](http://www.google.com/analytics/) tracking code, the fastest and most reliable tracking code Google Analytics offers.
 
-- [ ] Cover image for single post
-- [ ] Infinite scroll
-- [ ] Next post cover
+#### FitVids.JS
 
-## Contributing
+A lightweight, easy-to-use jQuery plugin for fluid width video embeds, to achieve fluid width videos in your responsive blog. [FitVids.JS](http://fitvidsjs.com/) support YouTube, Vimeo, Blip.tv, Viddler, Kickstarter, and even your own video vendor.
 
-If you want to help, please read the [Contributing](https://github.com/oswaldoacauan/ghostium/blob/master/CONTRIBUTING.md) guide.
+#### Disqus
 
-## History
+[Disqus](http://disqus.com/) makes commenting easier and more interactive, while connecting your blog and your commenters across a thriving discussion community. The Disqus widget for Ghostion seamlessly integrates with your blog post using the Disqus API.
 
-For detailed history, see [Changelog](https://github.com/oswaldoacauan/ghostium/blob/master/CHANGELOG.md).
+#### Highlight.JS
 
-## License
+[Highlight.js](http://highlightjs.org/) highlights syntax in code examples on Ghostion blog. It's very easy to use because it works automatically: finds blocks of code, detects a language, highlights it.
 
-[MIT License](http://oswaldoacauan.mit-license.org/) © Oswaldo Acauan
+#### Gulp.JS
+
+[Gulp](http://gulpjs.com/) is an intuitive, code-over-configuration, streaming build system. We use Gulp to build Ghostion theme pacakge and all its related files, including the documentation, DemoBuilder, and the source files. Please check our [Documentation](/documentation) to learn more how to customize and build Ghostion theme using Gulp.
